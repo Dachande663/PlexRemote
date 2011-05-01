@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A328CE35136CDA6F00FCD906 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A328CE34136CDA6F00FCD906 /* Cocoa.framework */; };
+		A328CE3F136CDA6F00FCD906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A328CE3D136CDA6F00FCD906 /* InfoPlist.strings */; };
+		A328CE42136CDA6F00FCD906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A328CE41136CDA6F00FCD906 /* main.m */; };
+		A328CE45136CDA6F00FCD906 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A328CE43136CDA6F00FCD906 /* Credits.rtf */; };
+		A328CE48136CDA6F00FCD906 /* PlexRemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A328CE47136CDA6F00FCD906 /* PlexRemoteAppDelegate.m */; };
+		A328CE4B136CDA6F00FCD906 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A328CE49136CDA6F00FCD906 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A328CE30136CDA6E00FCD906 /* PlexRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlexRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A328CE34136CDA6F00FCD906 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A328CE37136CDA6F00FCD906 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A328CE38136CDA6F00FCD906 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A328CE39136CDA6F00FCD906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A328CE3C136CDA6F00FCD906 /* PlexRemote-Info.plist */ = {isa = PBXFileReference; path = "PlexRemote-Info.plist"; sourceTree = "<group>"; };
+		A328CE3E136CDA6F00FCD906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A328CE40136CDA6F00FCD906 /* PlexRemote-Prefix.pch */ = {isa = PBXFileReference; path = "PlexRemote-Prefix.pch"; sourceTree = "<group>"; };
+		A328CE41136CDA6F00FCD906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A328CE44136CDA6F00FCD906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A328CE46136CDA6F00FCD906 /* PlexRemoteAppDelegate.h */ = {isa = PBXFileReference; path = PlexRemoteAppDelegate.h; sourceTree = "<group>"; };
+		A328CE47136CDA6F00FCD906 /* PlexRemoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlexRemoteAppDelegate.m; sourceTree = "<group>"; };
+		A328CE4A136CDA6F00FCD906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A328CE2D136CDA6E00FCD906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A328CE35136CDA6F00FCD906 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A328CE25136CDA6E00FCD906 = {
+			isa = PBXGroup;
+			children = (
+				A328CE3A136CDA6F00FCD906 /* PlexRemote */,
+				A328CE33136CDA6E00FCD906 /* Frameworks */,
+				A328CE31136CDA6E00FCD906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A328CE31136CDA6E00FCD906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A328CE30136CDA6E00FCD906 /* PlexRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A328CE33136CDA6E00FCD906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A328CE34136CDA6F00FCD906 /* Cocoa.framework */,
+				A328CE36136CDA6F00FCD906 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A328CE36136CDA6F00FCD906 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A328CE37136CDA6F00FCD906 /* AppKit.framework */,
+				A328CE38136CDA6F00FCD906 /* CoreData.framework */,
+				A328CE39136CDA6F00FCD906 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A328CE3A136CDA6F00FCD906 /* PlexRemote */ = {
+			isa = PBXGroup;
+			children = (
+				A328CE46136CDA6F00FCD906 /* PlexRemoteAppDelegate.h */,
+				A328CE47136CDA6F00FCD906 /* PlexRemoteAppDelegate.m */,
+				A328CE49136CDA6F00FCD906 /* MainMenu.xib */,
+				A328CE3B136CDA6F00FCD906 /* Supporting Files */,
+			);
+			path = PlexRemote;
+			sourceTree = "<group>";
+		};
+		A328CE3B136CDA6F00FCD906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A328CE3C136CDA6F00FCD906 /* PlexRemote-Info.plist */,
+				A328CE3D136CDA6F00FCD906 /* InfoPlist.strings */,
+				A328CE40136CDA6F00FCD906 /* PlexRemote-Prefix.pch */,
+				A328CE41136CDA6F00FCD906 /* main.m */,
+				A328CE43136CDA6F00FCD906 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A328CE2F136CDA6E00FCD906 /* PlexRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A328CE4E136CDA6F00FCD906 /* Build configuration list for PBXNativeTarget "PlexRemote" */;
+			buildPhases = (
+				A328CE2C136CDA6E00FCD906 /* Sources */,
+				A328CE2D136CDA6E00FCD906 /* Frameworks */,
+				A328CE2E136CDA6E00FCD906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlexRemote;
+			productName = PlexRemote;
+			productReference = A328CE30136CDA6E00FCD906 /* PlexRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A328CE27136CDA6E00FCD906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Luke Lanchester";
+			};
+			buildConfigurationList = A328CE2A136CDA6E00FCD906 /* Build configuration list for PBXProject "PlexRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A328CE25136CDA6E00FCD906;
+			productRefGroup = A328CE31136CDA6E00FCD906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A328CE2F136CDA6E00FCD906 /* PlexRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A328CE2E136CDA6E00FCD906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A328CE3F136CDA6F00FCD906 /* InfoPlist.strings in Resources */,
+				A328CE45136CDA6F00FCD906 /* Credits.rtf in Resources */,
+				A328CE4B136CDA6F00FCD906 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A328CE2C136CDA6E00FCD906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A328CE42136CDA6F00FCD906 /* main.m in Sources */,
+				A328CE48136CDA6F00FCD906 /* PlexRemoteAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A328CE3D136CDA6F00FCD906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A328CE3E136CDA6F00FCD906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A328CE43136CDA6F00FCD906 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A328CE44136CDA6F00FCD906 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A328CE49136CDA6F00FCD906 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A328CE4A136CDA6F00FCD906 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A328CE4C136CDA6F00FCD906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A328CE4D136CDA6F00FCD906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A328CE4F136CDA6F00FCD906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlexRemote/PlexRemote-Prefix.pch";
+				INFOPLIST_FILE = "PlexRemote/PlexRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A328CE50136CDA6F00FCD906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlexRemote/PlexRemote-Prefix.pch";
+				INFOPLIST_FILE = "PlexRemote/PlexRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A328CE2A136CDA6E00FCD906 /* Build configuration list for PBXProject "PlexRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A328CE4C136CDA6F00FCD906 /* Debug */,
+				A328CE4D136CDA6F00FCD906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A328CE4E136CDA6F00FCD906 /* Build configuration list for PBXNativeTarget "PlexRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A328CE4F136CDA6F00FCD906 /* Debug */,
+				A328CE50136CDA6F00FCD906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A328CE27136CDA6E00FCD906 /* Project object */;
+}
