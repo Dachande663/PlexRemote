@@ -1,0 +1,12 @@
+h1. Plex Remote for OS X
+
+Plex Remote provides a very simple interface for controlling a Plex Client on another machine from your menubar. This software is currently at a very early stage, so you will need Xcode installed and expect to break things.
+
+Important note: Until I add a proper preferences panel, you must set the Client Name in PlexRemoteAppDelegate.m and build from there. This means you must have Xcode installed!
+
+h2. Still To Add
+
+* Close panel on lose focus
+* Add preferences panel to select client
+* Make the UI nice
+* Handle connections better when waiting

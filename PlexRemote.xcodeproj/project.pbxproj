@@ -13,6 +13,10 @@
 		A328CE45136CDA6F00FCD906 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A328CE43136CDA6F00FCD906 /* Credits.rtf */; };
 		A328CE48136CDA6F00FCD906 /* PlexRemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A328CE47136CDA6F00FCD906 /* PlexRemoteAppDelegate.m */; };
 		A328CE4B136CDA6F00FCD906 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A328CE49136CDA6F00FCD906 /* MainMenu.xib */; };
+		A328CE53136D8C2400FCD906 /* PlexAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A328CE52136D8C2400FCD906 /* PlexAPI.m */; };
+		A328CE58136DA82200FCD906 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A328CE57136DA82200FCD906 /* icon.png */; };
+		A328CE60136DADA500FCD906 /* PlexView.m in Sources */ = {isa = PBXBuildFile; fileRef = A328CE5F136DADA500FCD906 /* PlexView.m */; };
+		A344DD1F136F005F00164D25 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A344DD1E136F005F00164D25 /* MAAttachedWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +25,21 @@
 		A328CE37136CDA6F00FCD906 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A328CE38136CDA6F00FCD906 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A328CE39136CDA6F00FCD906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A328CE3C136CDA6F00FCD906 /* PlexRemote-Info.plist */ = {isa = PBXFileReference; path = "PlexRemote-Info.plist"; sourceTree = "<group>"; };
+		A328CE3C136CDA6F00FCD906 /* PlexRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlexRemote-Info.plist"; sourceTree = "<group>"; };
 		A328CE3E136CDA6F00FCD906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A328CE40136CDA6F00FCD906 /* PlexRemote-Prefix.pch */ = {isa = PBXFileReference; path = "PlexRemote-Prefix.pch"; sourceTree = "<group>"; };
+		A328CE40136CDA6F00FCD906 /* PlexRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlexRemote-Prefix.pch"; sourceTree = "<group>"; };
 		A328CE41136CDA6F00FCD906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A328CE44136CDA6F00FCD906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		A328CE46136CDA6F00FCD906 /* PlexRemoteAppDelegate.h */ = {isa = PBXFileReference; path = PlexRemoteAppDelegate.h; sourceTree = "<group>"; };
 		A328CE47136CDA6F00FCD906 /* PlexRemoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlexRemoteAppDelegate.m; sourceTree = "<group>"; };
 		A328CE4A136CDA6F00FCD906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A328CE51136D8C2400FCD906 /* PlexAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlexAPI.h; sourceTree = "<group>"; };
+		A328CE52136D8C2400FCD906 /* PlexAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlexAPI.m; sourceTree = "<group>"; };
+		A328CE54136D8DD400FCD906 /* PlexRemoteAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlexRemoteAppDelegate.h; sourceTree = "<group>"; };
+		A328CE57136DA82200FCD906 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		A328CE5E136DADA500FCD906 /* PlexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlexView.h; sourceTree = "<group>"; };
+		A328CE5F136DADA500FCD906 /* PlexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlexView.m; sourceTree = "<group>"; };
+		A344DD1D136F005F00164D25 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		A344DD1E136F005F00164D25 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +93,17 @@
 		A328CE3A136CDA6F00FCD906 /* PlexRemote */ = {
 			isa = PBXGroup;
 			children = (
-				A328CE46136CDA6F00FCD906 /* PlexRemoteAppDelegate.h */,
+				A344DD1D136F005F00164D25 /* MAAttachedWindow.h */,
+				A344DD1E136F005F00164D25 /* MAAttachedWindow.m */,
+				A328CE57136DA82200FCD906 /* icon.png */,
+				A328CE54136D8DD400FCD906 /* PlexRemoteAppDelegate.h */,
 				A328CE47136CDA6F00FCD906 /* PlexRemoteAppDelegate.m */,
 				A328CE49136CDA6F00FCD906 /* MainMenu.xib */,
 				A328CE3B136CDA6F00FCD906 /* Supporting Files */,
+				A328CE51136D8C2400FCD906 /* PlexAPI.h */,
+				A328CE52136D8C2400FCD906 /* PlexAPI.m */,
+				A328CE5E136DADA500FCD906 /* PlexView.h */,
+				A328CE5F136DADA500FCD906 /* PlexView.m */,
 			);
 			path = PlexRemote;
 			sourceTree = "<group>";
@@ -155,6 +173,7 @@
 				A328CE3F136CDA6F00FCD906 /* InfoPlist.strings in Resources */,
 				A328CE45136CDA6F00FCD906 /* Credits.rtf in Resources */,
 				A328CE4B136CDA6F00FCD906 /* MainMenu.xib in Resources */,
+				A328CE58136DA82200FCD906 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +186,9 @@
 			files = (
 				A328CE42136CDA6F00FCD906 /* main.m in Sources */,
 				A328CE48136CDA6F00FCD906 /* PlexRemoteAppDelegate.m in Sources */,
+				A328CE53136D8C2400FCD906 /* PlexAPI.m in Sources */,
+				A328CE60136DADA500FCD906 /* PlexView.m in Sources */,
+				A344DD1F136F005F00164D25 /* MAAttachedWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +303,7 @@
 				A328CE50136CDA6F00FCD906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
